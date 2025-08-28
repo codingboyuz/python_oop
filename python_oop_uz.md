@@ -33,8 +33,9 @@ Siz tajribali Python dasturchisi bo‘lasizmi yoki endi boshlayotgan bo‘lasizm
 
 ## 1. OOP ga kirish
 
-![Rasim](https://miro.medium.com/v2/resize:fit:720/format:webp/1*K1qqTyj9AZsCbFufN7RGLg.jpeg)
-
+<div style="text-align: center;">
+  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*K1qqTyj9AZsCbFufN7RGLg.jpeg" alt="pfSense Qoidasi" width="400"/>
+</div>
 
 **OOP (Object-Oriented Programming – obyektga yo‘naltirilgan dasturlash)** — dasturlashdagi muhim yondashuv bo‘lib, dasturiy ta’minot dizayni haqidagi qarashlarni tubdan o‘zgartirdi. OOP yordamida **obyektlar** yaratiladi. Obyekt ichida **ma’lumot (data)** ham, shu ma’lumot bilan ishlovchi **xatti-harakatlar (behavior)** ham jamlanadi. Bu yondashuv dasturchilarga murakkab tizimlarni yanada oson modellashtirish va **qayta foydalaniladigan (reusable)** kod yozish imkonini beradi.
 
@@ -97,7 +98,10 @@ Hello, my name is Alice and I am 25 years old.
 
 ## 2. Encapsulation (Inkapsulyatsiya)
 
-![Rasim](https://miro.medium.com/v2/resize:fit:720/format:webp/1*gmT0r_SYxVvt5SljKp_zWw.png)
+
+<div style="text-align: center;">
+  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*gmT0r_SYxVvt5SljKp_zWw.png" alt="pfSense Qoidasi" width="400"/>
+</div>
 
 **Encapsulation (inkapsulyatsiya)** — bu **OOP (Obyektga yo‘naltirilgan dasturlash)** ning to‘rt asosiy tamoyilidan biri (qolganlari: inheritance — meros olish, polymorphism — polimorfizm, abstraction — abstraksiya).
 
@@ -145,7 +149,10 @@ print(person.get_age())
 
 ## 3. Inheritance (Meros olish)
 
-![Rasim](https://miro.medium.com/v2/resize:fit:720/format:webp/1*iP78XqAbkntOuzbHCoiubg.png)
+
+<div style="text-align: center;">
+  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*iP78XqAbkntOuzbHCoiubg.png" alt="pfSense Qoidasi" width="400"/>
+</div>
 
 **Inheritance (meros olish)** — bu OOP’dagi kuchli tushuncha bo‘lib, yangi klassni mavjud klass asosida yaratishga imkon beradi.
 
@@ -206,7 +213,10 @@ dog.speak()
 
 ## 4. Polymorphism (Polimorfizm)
 ----------------
-![Rasim](https://miro.medium.com/v2/resize:fit:640/format:webp/1*OGLbk0YoNHjr4NcKJKaxQw.jpeg)
+
+<div style="text-align: center;">
+  <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*OGLbk0YoNHjr4NcKJKaxQw.jpeg" alt="pfSense Qoidasi" width="400"/>
+</div>
 
 **Polymorphism (polimorfizm)** — bu OOP’dagi muhim xususiyatlardan biri bo‘lib, obyektlarning **turli shakl** yoki **xatti-harakatlarga** ega bo‘lishini anglatadi.
 
@@ -303,7 +313,10 @@ Polimorfizm yordamida dasturda **bir xil metod nomi** turli klasslarda turlicha 
 ## 5. Abstraction (Abstraksiya)
 ---------------
 
-![Rasim](https://miro.medium.com/v2/resize:fit:720/format:webp/1*-cJTFd3AosudzVr-QqrZ7A.jpeg)
+
+<div style="text-align: center;">
+  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*-cJTFd3AosudzVr-QqrZ7A.jpeg" alt="pfSense Qoidasi" width="400"/>
+</div>
 
 **Abstraction (abstraksiya)** — bu OOP’dagi asosiy tushunchalardan biri bo‘lib, dasturchiga murakkab tizimlardan **faqat kerakli xususiyat va xatti-harakatlarni ajratib olish**, qolgan ichki detallarni esa yashirish imkonini beradi.
 
@@ -485,7 +498,10 @@ Zo‘r, tarjimani kitob uslubida sof va tushunarli o‘zbek tilida qildim:
 
 ## 6. Eng yaxshi amaliyotlar
 
-![Rasm](https://miro.medium.com/v2/resize\:fit:720/format\:webp/1*D-VHyiMoXsHGpYw-PkorNw.jpeg)
+
+<div style="text-align: center;">
+  <img src="https://miro.medium.com/v2/resize\:fit:720/format\:webp/1*D-VHyiMoXsHGpYw-PkorNw.jpeg" alt="pfSense Qoidasi" width="400"/>
+</div>
 
 Obyektga yo‘naltirilgan dasturlash sizning kodingizni tartibga solish va tuzishda qudratli hamda moslashuvchan usulni taqdim etadi. Kodingiz **qo‘llab-quvvatlanadigan**, **masshtablanadigan** va **oson tushunarli** bo‘lishi uchun, dastur yaratishda eng yaxshi amaliyotlarga amal qilish juda muhim. Quyida Python’da obyektga yo‘naltirilgan dasturlash bilan ishlaganda yodda tutishingiz kerak bo‘lgan asosiy tamoyillar keltirilgan.
 

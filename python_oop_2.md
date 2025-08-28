@@ -18,7 +18,7 @@ On the other hand, an object is a specific instance of a class, possessing a uni
 
 Now, let’s illustrate the concept of a class by defining one for an “Electronic Shop” software application. This class, called “Electronic,” will be used to create electronic items that the shop sells.
 
-```
+```python
 class Electronic:
     def __init__(self, name, brand, price, quantity):
         self.name = name
@@ -34,7 +34,7 @@ In Python, built-in classes are named in lowercase, but user-defined classes are
 
 This class can be instantiated to any number of objects. Three Electronics are instantiated in the following example code:
 
-```
+```python
 electronic1 = Electronic("Laptop", "Dell", 1200, 5)
 electronic2 = Electronic("Smartphone", "Samsung", 800, 10)
 electronic3 = Electronic("Headphones", "Sony", 150, 20)
@@ -46,7 +46,7 @@ print(electronic3)
 
 Output:
 
-```
+```python
 <__main__.Electronic object at 0x7fe16f95ae50>
 <__main__.Electronic object at 0x7fe16f95b510>
 <__main__.Electronic object at 0x7fe16f95b550>
@@ -59,7 +59,7 @@ Special methods in Python are functions denoted by names starting and ending wit
 
 By implementing the `__repr__` method within a class, we can control how the object is represented as a string when it is printed or when the `repr()` function is called. This empowers us to display particular information about the object's attributes and qualities in a more meaningful manner.
 
-```
+```python
 class Electronic:
     def __init__(self, name, brand, price, quantity):
         self.name = name
@@ -77,7 +77,7 @@ print(electronic1)
 
 Output:
 
-```
+```python
 Electronic(name='Laptop', brand='Dell', price=1200, quantity=5)
 ```
 
@@ -101,7 +101,7 @@ Private attributes are properties that are not directly accessible from outside 
 
 In our `Electronic` class, we will employ encapsulation by introducing a private attribute named `__discount`
 
-```
+```python
 class Electronic:
     def __init__(self, name, brand, price, quantity):
         self.name = name
@@ -123,7 +123,7 @@ print(electronic1.__discount)
 
 Output:
 
-```
+```python
 Laptop
 Dell
 1200
@@ -140,7 +140,7 @@ You can see that all the attributes are printed except the private attribute `__
 
 Let’s make the price property, private, and use a setter method to assign the discount attribute and a getter function to get the price attribute.
 
-```
+```python
 class Electronic:
     def __init__(self, name, brand, price, quantity):
         self.name = name
@@ -161,7 +161,7 @@ class Electronic:
 
 Now let’s create two objects, one for the purchase of a single electronic and another for the purchase of an electronic in bulk quantity. While purchasing electronics in bulk quantity, we want to give a discount of 20%, so we’ll use the `set_discount()` method to set the discount to 20% in that case.
 
-```
+```python
 # Instantiate an examples of Electronics
 one_laptop = Electronic("Laptop", "Dell", 1200, 1)
 multi_laptops = Electronic("Laptop", "Acer", 1500, 10)
@@ -175,7 +175,7 @@ print(multi_laptops)
 
 Output:
 
-```
+```python
 1200
 1200.0
 Electronic(name='Laptop', brand='Dell', price=1200, quantity=1)
@@ -221,7 +221,7 @@ class Phone(Electronic):
 
 By using the `super()` function in the subclass constructors, we correctly call the parent class's `__init__` method, allowing us to initialize the common attributes defined in the `Electronic` class.
 
-```
+```python
 laptop1 = Laptop('XPS 15', 'Dell', 1800, 25, 'Intel Core i7')
 laptop1.set_discount(0.15)
 phone1 = Phone('Galaxy S20', 'Samsung', 800, 215, '6.2 inches')
@@ -233,7 +233,7 @@ print(phone1)
 
 Output:
 
-```
+```python
 Electronic, name:'XPS 15', brand:'Dell', price:1530.0, quantity:25
 Electronic, name:'Galaxy S20', brand:'Samsung', price:624.0, quantity:215
 ```
@@ -250,7 +250,7 @@ Polymorphism is a concept rooted in the Greek language, signifying ‘something 
 
 In programming, polymorphism pertains to the capability of a subclass to alter an existing method inherited from its superclass to suit its specific requirements. In essence, a subclass can either utilize a method from its superclass as it is or adjust it according to its needs. This flexibility allows for dynamic and versatile behavior in different instances of related classes, enhancing code reusability and adaptability.
 
-```
+```python
 class Electronic:
     def __init__(self, name, brand, price, quantity):
         self.name = name
@@ -283,7 +283,7 @@ The superclass, “Electronic,” possesses a distinct method called `__repr__`.
 
 Contrastingly, the “Phone” subclass is equipped with its individual `__repr__` special function, as seen in the provided example code. The "Phone" subclass leverages polymorphism to invoke its unique method, effectively overriding the corresponding method inherited from its superclass.
 
-```
+```python
 # Instantiate a Phone object
 phone1 = Phone("Smartphone", "Samsung", 1000, 2, 6.2)
 # Instantiate a Laptop object
@@ -296,7 +296,7 @@ print(laptop1)
 
 Output:
 
-```
+```python
 Phone, name:'Smartphone', brand:'Samsung', price:1000.0, display_size:6.2
 Electronic, name:'Notebook', brand:'HP', price:800.0, quantity:3
 ```
@@ -311,7 +311,7 @@ In Python, direct abstraction isn’t provided, but using magic methods enables 
 
 In our parent class _Electronic_, we have defined the `__repr__` method. Let's make that method abstract, forcing every subclass to compulsorily have its own `__repr__` method.
 
-```
+```python
 from abc import ABC, abstractmethod
 class Electronic(ABC):
     def __init__(self, name, brand, price, quantity):
@@ -355,7 +355,7 @@ In the Laptop class, we’ve intentionally missed the implementation of the `__r
 
 Output:
 
-```
+```python
 Traceback (most recent call last):
   File "/home/john/Documents/test/test.py", line 41, in <module>
     laptop1 = Laptop("Notebook", "HP", 800, 3, "Intel i5")
@@ -366,7 +366,7 @@ TypeError: Can't instantiate abstract class Laptop with abstract method __repr__
 
 We get a TypeError saying we cannot instantiate an object of the Laptop class. Let’s add the implementation of the `__repr__` method and see what happens now.
 
-```
+```python
 class Laptop(Electronic):
     def __init__(self, name, brand, price, quantity, processor):
         super().__init__(name, brand, price, quantity)
@@ -378,7 +378,7 @@ class Laptop(Electronic):
 
 Output:
 
-```
+```python
 Phone, name:'Smartphone', brand:'Samsung', price:1000.0, display_size:6.2
 Laptop, name:'Notebook', brand:'HP', price:800.0, processor:Intel i5
 ```
@@ -395,7 +395,7 @@ In Python, unlike some other languages, method overloading based on different ar
 
 1.  **Using Default Arguments:**
 
-```
+```python
 class MathOperations:
     def add(self, a=0, b=0, c=0):
         return a + b + c
@@ -411,7 +411,7 @@ print(math_obj.add(1, 2, 3))  # Output: 6
 
 2\. **Using Variable-Length Argument Lists (args):**
 
-```
+```python
 class MathOperations:
     def add(self, *args):
         total = sum(args)
@@ -435,7 +435,7 @@ When a method with identical name and arguments exists in both a derived (child)
 
 Upon calling the overridden method, the implementation from the derived class takes precedence and is executed. Consequently, the method from the base class remains concealed or hidden from view during the call.
 
-```
+```python
 class Shape:
     def area(self):
         return 0

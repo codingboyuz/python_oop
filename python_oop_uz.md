@@ -598,8 +598,4 @@ Ammo bu prinsiplardan **ortiqcha foydalanish mumkin emas**. Eng muhim narsa — 
 
 Shu amaliyotlarga amal qilsangiz, yanada sifatli va masshtablanadigan, vaqt o‘tishi bilan qo‘llab-quvvatlash oson dasturlar yaratishingiz mumkin. Python’ning boy kutubxonalari va vositalari bu prinsiplardan foydalanishni yanada qulay va intuitiv qiladi. Python va OOP prinsiplari uyg‘unligi orqali siz **elegant**, **samarali** va **barqaror** kod yozishingiz mumkin.
 
----
 
-
-
-I hope you’ve enjoyed this article and I appreciate the time you’ve taken to read it!

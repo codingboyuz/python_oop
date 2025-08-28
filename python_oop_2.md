@@ -1,7 +1,4 @@
 # Object Oriented Programming in Python | by John Kamau | Medium
-Press enter or click to view image in full size
-![John Kamau](https://miro.medium.com/v2/resize:fill:64:64/1*ARU31RRkbonGKXIX8LjPHw.jpeg)
-[John Kamau](https://medium.com/@johnnyJK)
 
 Object-Oriented Programming (OOP) is a programming paradigm that organizes code into objects, which are instances of classes. These objects encapsulate data and behavior, allowing developers to model real-world entities and interactions effectively. OOP in Python revolves around four main principles: encapsulation, inheritance, polymorphism, and abstraction.
 

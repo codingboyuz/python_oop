@@ -192,7 +192,7 @@ In the context of our Electronic shop software, we will introduce two new classe
 
 By utilizing inheritance, we can create a parent class that holds the common attributes and methods, and then have the `Laptop` and `Phone` classes inherit from this parent class. This way, we can avoid duplicating code and efficiently manage the shared functionality across various book types. The child classes will automatically gain access to the properties and behavior of the parent class, promoting code organization and reducing maintenance overhead.
 
-```
+```python
 class Electronic:
     def __init__(self, name, brand, price, quantity):
         self.name = name
@@ -241,7 +241,7 @@ Electronic, name:'Galaxy S20', brand:'Samsung', price:624.0, quantity:215
 
 There are four common types of inheritance. In single inheritance, a class inherits from just one parent class, allowing it to access the parent’s properties and behavior. Multilevel inheritance involves classes forming a chain where each class derives from its immediate parent, passing down attributes and methods. Hierarchical inheritance features multiple classes inheriting from a single parent class, each adding its own attributes. In multiple inheritance, a class can inherit from multiple parent classes, gaining combined attributes and methods.
 
-Press enter or click to view image in full size
+![Rasim](https://miro.medium.com/v2/resize:fit:720/format:webp/1*UjGeQtKO36k25HGpOv9wgA.jpeg)
 
 Polymorphism
 ------------

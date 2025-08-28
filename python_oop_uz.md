@@ -1,8 +1,7 @@
 # Python’da OOP (Obyektga yo‘naltirilgan dasturlash)
 
 
-
-![Rasim](https://miro.medium.com/v2/resize:fit:720/format:webp/1*Aepqo-jv2opyp0NzSaoa8w.jpeg)
+<img src="[https://i.imgur.com/pfsense-lan-rule.png](https://miro.medium.com/v2/resize:fit:720/format:webp/1*Aepqo-jv2opyp0NzSaoa8w.jpeg)" alt="pfSense LAN Qoidasi" width="400"/>
 
 Assalomu alaykum va xush kelibsiz! **Obyektga yo‘naltirilgan dasturlash** (**OOP — Object-Oriented Programming**) – bu keng qo‘llaniladigan dasturlash uslubi bo‘lib, 
 u dasturchilarga **modulli (bo‘laklarga bo‘lingan)**, **qayta ishlatish mumkin bo‘lgan**, **oson boshqariladigan** va **kengaytirish mumkin bo‘lgan** kod yozishga yordam beradi.

@@ -500,7 +500,7 @@ Zo‘r, tarjimani kitob uslubida sof va tushunarli o‘zbek tilida qildim:
 
 
 <div style="text-align: center;">
-  <img src="https://miro.medium.com/v2/resize\:fit:720/format\:webp/1*D-VHyiMoXsHGpYw-PkorNw.jpeg" alt="pfSense Qoidasi" width="400"/>
+  <img src="https://i.pinimg.com/736x/c6/95/48/c69548ca2d1868b14cd3dadc3da2b036.jpg" alt="pfSense Qoidasi" width="400"/>
 </div>
 
 Obyektga yo‘naltirilgan dasturlash sizning kodingizni tartibga solish va tuzishda qudratli hamda moslashuvchan usulni taqdim etadi. Kodingiz **qo‘llab-quvvatlanadigan**, **masshtablanadigan** va **oson tushunarli** bo‘lishi uchun, dastur yaratishda eng yaxshi amaliyotlarga amal qilish juda muhim. Quyida Python’da obyektga yo‘naltirilgan dasturlash bilan ishlaganda yodda tutishingiz kerak bo‘lgan asosiy tamoyillar keltirilgan.
